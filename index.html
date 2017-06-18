@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<title>Login paget</title>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+<script type="text/javascript">
+function display(form){
+if (form.username.value=="root") { 
+		if (form.password.value=="root") {              
+										location="2.html" 
+											} else {
+													alert("Shut the fuck up")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>
+   
+<body >
+    <div id="tuodiv"></div>
+    <div id="sedha">
+<form >
+<input type="text" name="username" placeholder="Username" /><br><br>
+<input type="password" name="password" placeholder="Password"/><br><br>
+<input type="button" value="Login" onClick="display(this.form)"/>
+
+</form>
+        
+    </div>
+</body>
+    
+</html>
